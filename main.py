@@ -37,13 +37,6 @@ class Main(tk.Frame):
                                     command=self.open_update_dialog)
         
         btn_upd_dialog.pack(side=tk.LEFT)
-
-
-        # Кнопка изменения данных
-        self.update_img = tk.PhotoImage(file='./img/update.png')
-        btn_edit_dialog = tk.Button(toolbar, bg='#d7d8e0', bd=0, 
-                                    image=self.update_img, command=self.open_update_dialog)
-        btn_edit_dialog.pack(side=tk.LEFT)
         
         
         # Кнопка удаления записей
